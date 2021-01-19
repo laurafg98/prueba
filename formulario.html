@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Practica 1: Formulario Laura Fernandez</title>
+    </head>
+    <body>
+        <h1>Formulario</h1>
+        <form name="ejemplo" method="POST">
+            <table>
+                <tr><td><b>Nombre</b></td><td><input type="text" maxlength="40" size="40" name="Nombre"></td></tr>
+                <tr><td><b>Apellidos</b></td><td><input type="text" maxlength="40" size="40" name="Apellidos"></td></tr>
+                <tr><td><b>Fecha de Nacimiento</b></td><td><input type="date" maxlength="40" size="40" name="Fecha de Nacimiento"></td></tr>
+                <tr><td><b>Sexo</b></td><td><input type="radio" name="Sexo" value="M">Mujer<input type="radio" name="Sexo" value="H">Hombre<input type="radio" name="Sexo" value="X">Sin especificar<br></td></tr>
+                <tr><td><b>Email</b></td><td><input type="text" maxlength="40" size="40" name="Email"></td></tr>
+                <tr><td><b>Telefono</b></td><td><input type="text" maxlength="40" size="40" name="Telefono"></td></tr>
+                <tr><td><b>Direccion</b></td><td><input type="text" maxlength="40" size="40" name="Direccion"></td></tr>
+                <tr><td><b>Codigo Postal</b></td><td><input type="text" maxlength="40" size="40" name="Codigo Postal"></td></tr>
+                <tr><td><b>Localidad</b></td><td><input type="text" maxlength="40" size="40" name="Localidad"></td></tr>
+                <tr><td><b>Provincia</b></td>
+                    <td>
+                        <select size="1" name="opcion">
+                            <option value="Malaga">Malaga</option>
+                            <option value="Granada">Granada</option>
+                            <option value="Almeria">Almeria</option>
+                            <option value="Cordoba">Cordoba</option>
+                            <option value="Jaen">Jaen</option>
+                            <option value="Sevilla">Sevilla</option>
+                            <option value="Huelva">Huelva</option>
+                            <option value="Cadiz">Cadiz</option>
+                        </select>
+                    </td> 
+                </tr>
+                <tr><td><b>Fotografia</b></td><td><input type="file" name="Fotografia"></td></tr>
+                <tr><td><b>Alergias</b></td><td><input type="radio" name="Alergias" value="A">Aspirina<input type="radio" name="Sexo" value="I">Ibuprofeno<input type="radio" name="Sexo" value="L">Lactosa<br></td></tr>
+                <tr><td><b>Alergias 2</b></td><td><input type="radio" name="Alergias 2" value="A">Aspirina<input type="radio" name="Sexo" value="I">Ibuprofeno<input type="radio" name="Sexo" value="L">Lactosa<br></td></tr>
+                <tr><td colspan="2"><input type="checkbox" name="acepto" value="1"> Acepto el tratamiento de datos</td></tr>
+                <tr><td><input type="submit" value="Enviar"><input type="reset" value="Borrar"></td></tr>
+    
+            </table>
+        </form>
+    </body>
+</html>
+    
